@@ -1,6 +1,6 @@
 from googlesearch import search
 
-dork_dir = input ("Enter the full path to dorks directory: ")
+dork_dir = input ("Enter the full path to dorks directory: Example ->> /home/user/dorks ")
 
 advisories_and_vulns_object=open(dork_dir+"/advisories_and_vulnerabilities.dorks", "r")
 advisories_and_vulns_list=advisories_and_vulns_object.readlines()
