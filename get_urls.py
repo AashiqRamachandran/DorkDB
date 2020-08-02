@@ -10,7 +10,7 @@ files_containing_juicy_info_object=open(r"/home/ar/Automating dorks/dorks/files_
 files_containing_juicy_info_list=files_containing_juicy_info_object.readlines()
 
 files_containing_passwords_object=open(r"/home/ar/Automating dorks/dorks/files_containing_passwords.dorks","r")
-files_containing_passwords_list=file_containing_passwords_object.readlines()
+files_containing_passwords_list=files_containing_passwords_object.readlines()
 
 files_containing_usernames_object=open(r"/home/ar/Automating dorks/dorks/files_containing_usernames.dorks","r")
 files_containing_usernames_list=files_containing_usernames_object.readlines()
